@@ -16,9 +16,10 @@ app.get('/', (req, res) => {
 //Define Routes Files
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/ingredients', require('./routes/api/ingredients'));
+app.use('/api/tools', require('./routes/api/tools'));
 app.use('/api/articles', require('./routes/api/articles'));
-app.use('/api/profile', require('./routes/api/profile'));
-app.use('/api/recipe', require('./routes/api/recipe'));
+app.use('/api/profiles', require('./routes/api/profiles'));
+app.use('/api/recipes', require('./routes/api/recipes'));
 app.use('/api/users', require('./routes/api/users'));
 
 const PORT = process.env.PORT || 5000;
