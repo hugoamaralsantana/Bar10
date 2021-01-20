@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://vhugoamarals:LOOM187from@barten.vg3hy.mongodb.net/BarTen?retryWrites=true&w=majority",
+  "jwtSecret": "thundercrosssplitattack"
+}
