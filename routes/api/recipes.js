@@ -72,8 +72,6 @@ router.post(
       console.error(err.message);
       return res.status(500).send({ msg: 'Server Error' });
     }
-
-    res.send('Recipes Route');
   }
 );
 
